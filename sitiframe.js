@@ -32,6 +32,6 @@ if (document.images) {
 		Acclx.src = "Accueilx.png"
 		Avntx.src = "Avantx.png"
 		Milx.src = "1986-1995x.png"
-		Aprx.src = "Aprs1995x.png"
+		Aprx.src = "Après1995x.png"
 
 	}
