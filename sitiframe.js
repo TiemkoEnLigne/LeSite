@@ -1,6 +1,3 @@
-<!doctype html>
-<html lang=fr class="html-fluid">
-
 linkURL = "index.htm"
 	if (parent.document.URL) {
 		callingURL = parent.document.URL
