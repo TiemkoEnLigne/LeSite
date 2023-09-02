@@ -19,19 +19,20 @@ if (document.images) {
 		Mil = new Image
 		Apr = new Image
 
-		Accl.src = "Accueil Tahoma.png"
-		Avnt.src = "Avant Tahoma.png"
-		Mil.src = "1986-1995 Tahoma.png"
-		Apr.src = "Après1995 Tahoma.png"
+		Accl.src = "Accueil FA.png"
+		Avnt.src = "Avant FA.png"
+		Mil.src = "1986-1995 FA.png"
+		Apr.src = "Après1995 FA.png"
 	
 		Acclx = new Image
 		Avntx = new Image
 		Milx = new Image
 		Aprx = new Image
 
-		Acclx.src = "Accueilx Tahoma.png"
-		Avntx.src = "Avantx Tahoma.png"
-		Milx.src = "1986-1995x Tahoma.png"
-		Aprx.src = "Après1995x Tahoma.png"
+		Acclx.src = "Accueilx FA.png"
+		Avntx.src = "Avantx FA.png"
+		Milx.src = "1986-1995x FA.png"
+		Aprx.src = "Après1995x FA.png"
+
 
 	}
