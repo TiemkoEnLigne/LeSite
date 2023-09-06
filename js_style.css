@@ -29,3 +29,15 @@ img {
 	{
 	background-image:"TIEMKO FA.jpg";
 	}
+
+.float {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+div {
+    display:table;
+    width:auto;
+    height:164px;
+}
