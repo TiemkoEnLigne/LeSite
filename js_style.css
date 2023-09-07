@@ -25,21 +25,6 @@ img {
 		a:hover {color: #C2C2C4}
 		a:visited {color: #FFEEC5 }
 		a:hover {color: #C2C2C4}
-.imageFond
-	{
-	background-image:"TIEMKO FA.jpg";
-	}
-
-.float {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-
-div {
-    display:table;
-    width:auto;
-    height:164px;
 }
 
 td {
