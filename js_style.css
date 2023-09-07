@@ -31,7 +31,6 @@ img {
     align-items:center;
     textAlignVertical:center
     justify-content:center;
-    display:inline-block;
 }
 
 td {
@@ -39,5 +38,4 @@ td {
     align-items: center;
     textAlignVertical:center
     justify-content:center;
-    display:inline-block;
 }
