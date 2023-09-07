@@ -29,6 +29,7 @@ img {
 .iphon {
     display: flex;
     align-items:center;
+    vertical-align: middle
 }
 
 td {
