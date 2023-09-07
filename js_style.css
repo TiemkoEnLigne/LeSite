@@ -29,11 +29,11 @@ img {
 .iphon {
     display: flex;
     align-items:center;
-    textAlignmentsVertical:center
+    textAlignVertical:center
 }
 
 td {
     display: flex;
     align-items: center;
-    textAlignmentsVertical:center
+    textAlignVertical:center
 }
