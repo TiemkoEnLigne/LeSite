@@ -41,3 +41,8 @@ div {
     width:auto;
     height:164px;
 }
+
+td {
+    display: flex;
+    align-items: center;
+}
