@@ -29,9 +29,11 @@ img {
 .iphon {
     display: flex;
     align-items: center;
+    align-self: center
 }
 
 td {
     display: flex;
     align-items: center;
+    align-self: center
 }
