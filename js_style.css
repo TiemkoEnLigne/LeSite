@@ -31,9 +31,6 @@ img {
     align-items:center;
     textAlignVertical:center
     justify-content:center;
-     transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-     -moz-transform: translateY(-50%);
 }
 
 td {
@@ -41,7 +38,4 @@ td {
     align-items: center;
     textAlignVertical:center
     justify-content:center;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
 }
