@@ -10,7 +10,7 @@ img {
 		a:hover {color: #C0C0C0}
 
 .narrctr { 
-	COLOR: #FFFFFF; FONT-WEIGHT: normal;  FONT-SIZE: 20px; TEXT-Align:justify; FONT-FAMILY: Tahoma, sans-serif }
+	display:table-cell; COLOR: #FFFFFF; FONT-WEIGHT: normal;  FONT-SIZE: 20px; TEXT-Align:justify; FONT-FAMILY: Tahoma, sans-serif }
 
 .deboco {
 	COLOR: #03C1D7; FONT-WEIGHT: bold;  FONT-SIZE: 1.5em; MARGIN-LEFT:1em; MARGIN-TOP:1em; MARGIN-BOTTOM:0.5em; FONT-FAMILY: Tahoma, sans-serif }
