@@ -1,27 +1,24 @@
 <!doctype html>
-<html lang=fr class="html-fluid">
 	
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta content="Tiemko, Rémy Chauvidan, Éric Delaunay, Jean-Jacques Toussaint" name=keywords />
 <meta content="Un site de fan de Tiemko" name=description />
 
 <link href="js_style.css" type=text/css rel=stylesheet></link>
 	
+<script>	function set_body_height() { // set body height = window height
+        $('body').height($(window).height());
+    }
+    $(document).ready(function() {
+        $(window).bind('resize', set_body_height);
+        set_body_height();
+    }
+</script>
+	
 <script src="sitiframe.js" language="Javascript" type="text/javascript" ></script>
-
-	<script language="Javascript" type="text/javascript">
-		<!-- Hide script from old browsers
-
-		if (top.location == self.location) {
-			self.location.replace("index.htm?accueil.htm")
-		}
-		// End hiding script from old browsers -->
-	</script>		
 
 </head>
 
-		
 <table>	
 <tr>
 <td style="position:fixed; _position:absolute; top:164px; left:205px; right:0; filter:alpha(opacity=38); opacity:0.38"><video id="background-video" width=95% height=68% autoplay loop muted poster="Borniche.jpg">
@@ -29,7 +26,9 @@
 </video>
 </td>
 </tr>
-</table>
+</table>	
+
+
 
 <body margin-left=0 margin-right=0 margin-top=0 bgcolor=#2A110D>
 
@@ -44,63 +43,72 @@
 <td style="position:fixed; _position:relative; z-index:8; left:83%; right=0%; top:0px"><img src="Tyr Delaunay 164.jpg" /></td>
 </tr>
 </table>
+
+<iframe onLoad="actu_iframe()" allowTransparency="true" z-index=9 id="id_iframe" name="content" frameborder=no marginheight=0 style="position:fixed; _position:absolute; scrolling:yes; width:94%; height:92%; left:200px; top:164px; right:0px" >Your browser does not support iframes</iframe>
+
 	
-<table align=center border="0" width=75%>
+<table  align=center style=" width:80%; top:164px">
+	
 <tr height=55px />
 
 <tr>
+<td width=230px />
+</tr>
+
+<tr>
+	<td>
+		<table>
+			
+<tr>
+	<td>
+		<table>
+<td width=17% />
+<td><img src="Studio 718x480.jpg" /></td>
+		</table>				
+	</td>
+</tr>
+	
+<tr>
+<td height=30px />
+</tr>
+
+<tr>
+<td  class=narrctr>Ce site permet de compléter les infos disponibles sur les CDs de Tiemko (et projets en rapport) et la (re-)découverte de documents. Les (livrets des) CDs de Tiemko ont des infos pas reproduites ici !</td>
+</tr>
+	
+		
+<tr>
+<td height=30px></td>
+</tr>
+
+<tr>
 <td>
-<img src="Studio 718x480.jpg" />
-</td>
-</tr>
-	
+		<table>
 <tr>
-<td height=30px></td>
-</tr>
-
-<tr>
-<td  class=narrctr>Ce site permet de compléter les infos disponibles sur les CDs de Tiemko (et projets en rapport) et la (re-)découverte de documents.  Les (livrets des) CDs de Tiemko ont des infos pas reproduites ici !</td>
-</tr>
-	
-<tr>
-<td height=30px></td>
-</tr>
-
-<tr>
+<td width=17% />
 <td>
 <img src="Trio noir et blanc 707x480.jpg" />
 </td>
 </tr>
-
-<tr>
-<td height=30px></td>
-</tr>
-	
-<tr>
-<td class=narrctr>Bonne exploration ! Si vous possédez un document, article de presse, affich(ett)e, vidéo (même de qualité médiocre), enregistrement en rapport, n'hésitez pas à prendre contact en envoyant un courriel à tiemkoenligne@gmail.com !</td>
-</tr>
-<tr>
-<td height=50px></td>
-</tr>
-<td></td>
-<tr height=20px />
-<tr><td class=narrctr><tr height=20px />
-<tr><td></td></tr>
-<tr>
-<td height=50px></td>
+		</table>
+</td>
 </tr>
 
 <tr>
 <td height=30px></td>
 </tr>
+
 <tr>
-<td>
-</td  height=20px>
+<td class=narrctr>Bonne exploration ! Tout document numérisé inédit, article de presse, affich(ett)e, vidéo (même de qualité médiocre), enregistrement en rapport, est très bienvenu, et peut être envoyé à <a href=>tiemkoenligne@gmail.com</a></td>
 </tr>
-	
+		
+<tr>
+<td height=250px></td>
+</tr>
+
 </table>
-
-<table style="z-index:7; position:fixed; _postion:absolute; height:1600px; width:230px; left:0%; top:164px"; bgcolor=#2A110D >
+	
+<table style="z-index:9; position:fixed; _postion:absolute; height:1600px; width:230px; left:0%; top:164px"; bgcolor=#2A110D />
 		<tr><td></td></tr>
 		<tr><td>
 			<table>
